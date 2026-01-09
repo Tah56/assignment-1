@@ -14,7 +14,7 @@
   padding: 13px 16px;
   font-size: 16px;
   font-weight:600;
-  border: none;
+   border: 1px solid transparent ;
   border-radius: 4px;
   color: #FFFFFF;
   background-color: #469165;
@@ -24,8 +24,9 @@
 .btn:hover{
   color: #469165;
   background-color: transparent;
-  /* border: 1px solid #469165 ; */
-  backdrop-filter: blur(10px);
+  border-color: #469165;
+ 
+
 }
 
 
@@ -85,6 +86,11 @@ nav .menu a{
   cursor: pointer;
 }
 
+.hero-head button:hover{
+  color: #FFFFFF;
+  background-color: #469165;
+}
+
 .hero .hero-container h1{
   font-size: 72px;
   line-height: 84px;
@@ -107,7 +113,7 @@ nav .menu a{
   padding: 17px 15px;
    font-size: 16px;
   font-weight:600;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 4px;
   color: #FFFFFF;
   background-color: #469165;
@@ -115,9 +121,9 @@ nav .menu a{
 }
 
 .btn-1:hover{
-  color: #FFFFFF;
+  
+  border-color: #FFFFFF;
   background-color:transparent;
-  backdrop-filter: blur(10px);
   cursor: pointer;
 }
  .btn-2{
@@ -298,4 +304,49 @@ nav .menu a{
 
 .early-acces .acces-container button{
   margin-bottom: 16px;
+}
+
+
+/* early-acces section end */
+
+/* footer section start */
+
+footer{
+  padding-top: 120px;
+  background-color: #001931;
+  text-align: center;
+}
+
+footer .footer-container{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+footer .footer-container .footer-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.footer-box .social h4{
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.footer-box .social i{
+  width: 20px;
+  height: 20px;
+  color: #FFFFFF;
+  border-bottom: 50%;
+
+}
+footer .footer-container .copyright{
+  color: #fafafa;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 30px 0;
 }
