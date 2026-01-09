@@ -180,7 +180,7 @@ nav .menu a{
 .card-container .card .icon{
   width: 60px;
   height: 60px; 
-  background-color: red;
+  background-color: #F95555;
   border-radius:50% ;
   display: flex;
   align-items: center;
@@ -210,7 +210,7 @@ nav .menu a{
 
 
 .second-brain{
-  padding: 120px;
+  padding: 120px 0;
 }
 
 .second-brain .brain-container{
@@ -262,3 +262,40 @@ nav .menu a{
 }
 
 /* seocond brain section end */
+
+
+.early-acces{
+  padding-bottom: 120px;
+}
+
+.early-acces .acces-container{
+  width: 85%;
+  max-width: 1360px;
+  padding: 80px 0;
+  margin: 0 auto;
+  background-color: #F7F6F2;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.early-acces .acces-container h2{
+  margin-top: 80px;
+  font-size: 40px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.early-acces .acces-container p{
+  font-size: 16px;
+  color: #627382;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.early-acces .acces-container .end-msg{
+  margin-bottom: 80px;
+}
+
+.early-acces .acces-container button{
+  margin-bottom: 16px;
+}
