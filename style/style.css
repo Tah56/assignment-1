@@ -202,5 +202,63 @@ nav .menu a{
   margin: 0 24px 70px;
 }
 
+/* note section end */
 
 
+
+/* second-brain section start */
+
+
+.second-brain{
+  padding: 120px;
+}
+
+.second-brain .brain-container{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.second-brain .brain-container .brain-text{
+  max-width: 700px;
+  
+}
+
+.brain-container .brain-text h4{
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+  margin-bottom: 16px;
+}
+
+.brain-container .brain-text h2{
+  font-size: 48px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.brain-container .brain-text .description{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+.lists{
+  max-width: 700px;
+}
+.brain-text .lists .list-box{
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+
+.lists .list-box .info{
+  font-size: 16px;
+  line-height: 20px ;
+ 
+}
+
+/* seocond brain section end */
