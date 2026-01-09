@@ -133,12 +133,11 @@ nav .menu a{
   border-radius: 4px;
   text-align: center;
   margin-left: 16px;
+  cursor: pointer;
 }
 
 .btn-2:hover{
-  background-color: #469165;
-  border: 1px solid #469165;
-  cursor: pointer;
+  color: #469165;
 }
 
 /* hero section end */
