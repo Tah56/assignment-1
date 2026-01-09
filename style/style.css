@@ -23,9 +23,11 @@
 
 .btn:hover{
   color: #469165;
-  background-color: #FFFFFF;
-  border: 1px solid #469165 ;
+  background-color: transparent;
+  /* border: 1px solid #469165 ; */
+  backdrop-filter: blur(10px);
 }
+
 
 
 
@@ -57,4 +59,81 @@ nav .menu a{
   color: #000000;
 }
 
+/* hero section start */
 
+.hero{
+  background: url("../assets/hero-bg.png");
+  padding: 115px 0 180px ;
+}
+
+.hero .hero-container{
+  width: 85%;
+  max-width: 1360px;
+  text-align: center;
+  margin: 0 auto 
+}
+
+.hero-container .hero-head button {
+  background-color: #FFFFFF;
+  padding: 8px 12px;
+  border-radius: 1000px;
+  border: none;
+  font-size: 16px;
+  font-weight:500;
+  color: #469165;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.hero .hero-container h1{
+  font-size: 72px;
+  line-height: 84px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+
+}
+.hero-container h1 span{
+  color: #469165;
+}
+
+.hero .hero-container p{
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.btn-1{
+  padding: 17px 15px;
+   font-size: 16px;
+  font-weight:600;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  background-color: #469165;
+  cursor: pointer;
+}
+
+.btn-1:hover{
+  color: #FFFFFF;
+  background-color:transparent;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+ .btn-2{
+  padding: 17px 16px;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 16px;
+}
+
+.btn-2:hover{
+  background-color: #469165;
+  border: 1px solid #469165;
+  cursor: pointer;
+}
+
+/* hero section end */
