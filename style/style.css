@@ -317,6 +317,11 @@ footer .footer-container .footer-box{
   margin-bottom: 80px;
 }
 
+
+.footer-box .social{
+  text-align: left;
+}
+
 .footer-box .social h4{
   font-size: 20px;
   font-weight: 500;
