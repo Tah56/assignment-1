@@ -43,6 +43,8 @@
 /* heading style */
 
 nav{
+  width: 85%;
+  max-width: 1360px;
   margin: 16px auto;
   display: flex;
   justify-content: space-between;
