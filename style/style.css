@@ -137,3 +137,70 @@ nav .menu a{
 }
 
 /* hero section end */
+
+
+/* Notes section start */
+
+.notes{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.notes .note-container{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.notes .note-container h2{
+  font-size: 48px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.notes .note-container .note-sub{
+  font-size: 16px;
+  line-height:  20px;
+  color: #627382;
+  margin-bottom: 44px;
+}
+
+.note-container .card-container{
+  display: flex;
+  gap: 24px;
+}
+
+.note-container .card-container .card{
+  max-width: 322px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #E6E6E6;
+  background-color: #FFFFFF;
+}
+
+.card-container .card .icon{
+  width: 60px;
+  height: 60px; 
+  background-color: red;
+  border-radius:50% ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 70px auto 16px;
+
+}
+
+.card-container .card h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.card-container .card p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin: 0 24px 70px;
+}
+
+
+
